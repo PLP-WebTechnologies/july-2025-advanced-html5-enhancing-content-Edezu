@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" width="device-width" initial-scale="1.0">
+        <title>Women in Business</title>
+    </head>
+    <body>
+        <header>
+            <h1>Women in business</h1>
+            <nav>
+                <ul>
+                    <li><a href="#">About me</a></li>
+                    <li><a href="#">What I do</a></li>
+                    <li><a href="#">Education background</a></li>
+                    <li><a href="#">My CV</a></li>
+                    <li><a href="#">Contact me</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <section>
+                <h2>Welcome to our page!</h2>
+            </section>
+            <section>
+                <img src="images/bg-image.jpg" width="100%">
+            </section>
+            <section>
+                <h2>Our products</h2>
+                <table border="1">
+                    <tr>
+                        <th>S/N</th>
+                        <th>Product</th>
+                        <th>Outlet</th>
+                    </tr>
+                    <tr>
+                        <td>01</td>
+                        <td>Fruits</td>
+                        <td>Arua main market</td>
+                    </tr>
+                    <tr>
+                        <td>02</td>
+                        <td>Vegetable</td>
+                        <td>Odramacaku market</td>
+                    </tr>
+                    <tr>
+                        <td>03</td>
+                        <td>Fresh fish</td>
+                        <td>Arua main market & Awindiri market</td>
+                    </tr>
+                    <tr>
+                        <td>04</td>
+                        <td>Diary</td>
+                        <td>Ediofe market</td>
+                    </tr>
+                    <tr>
+                        <td>05</td>
+                        <td>Honey</td>
+                        <td>Arua main market</td>
+                    </tr>
+                </table>
+            </section>
+            <section>
+                <h2>What our customers say</h2>
+                <video width="70%" height="500vh" controls>
+                    <source src="videos/feedback.mp4" type="video/mp4">
+                    Video not supported by your browser
+                </video>
+            </section>
+            <section>
+                <h2>Register with us and serve our customers better</h2>
+                <form action="#" method="post">
+                    <fieldset>
+                        <legend>Bio data</legend>
+                        <label for="firstname">First name:</label>
+                        <input type="text" name="firstname" required>
+                        <br /><br />
+
+                        <label for="lastname">Last name:</label>
+                        <input type="text" name="lastname" required>
+                        <br /><br />
+
+                        <label for="gender">gender</label>
+                        <br /><br />
+                        <label for="male">Male</label>
+                        <input type="radio" name="gender" value="male">
+                        <label for="male">Female</label>
+                        <input type="radio" name="gender" value="female">
+                        <br /><br />
+                    </fieldset>
+                    <fieldset>
+                        <legend>Address</legend>
+                        <label for="town">Town:</label>
+                        <select id="towns" required>
+                            <option value="#" disabled>Choose town</option>
+                            <option value="Arua">Arua</option>
+                            <option value="Pakwach">Pakwach</option>
+                            <option value="Terego">Terego</option>
+                            <option value="Maracha">Maracha</option>
+                            <option value="Nebbi">Nebbi</option>
+                        </select>
+                        <br /><br />
+
+                        <label for="street">Street:</label>
+                        <input type="text" name="street" required>
+                        <br /><br />
+
+                        <label for="postaladdress">Postal address:</label>
+                        <input type="text" name="postaladdress">
+                        <br /><br />
+
+                        <label for="sipcode">Zip code:</label>
+                        <input type="text" name="zipcode">
+                    </fieldset>
+                    <fieldset>
+                        <legend>Contacts</legend>
+                        <label for="tel">Telephone:</label>
+                        <input type="tel" name="tel" required placeholder="e.g., +256 777777777">
+                        <br /><br />
+
+                        <label for="email">Email:</label>
+                        <input type="email" name="email" required placeholder="e.g., someone@email.com">
+                    </fieldset>
+                    <fieldset>
+                        <legend>Your business profile</legend>
+                        <label for="buz-name">Business name:</label>
+                        <input type="text" name="buz-name" required>
+                        <br /><br />
+                        <input type="date" name="startdate" required>
+                        <label for="startdate">Start date:</label>
+                        <br /><br />
+                        <label for="commodities">Commodities sold:</label><br /><br />
+                        <input type="checkbox" name="commodities" value="Fruits">
+                        <label for="fruits">Fruits:</label>
+                        <br /><br />
+                        <input type="checkbox" name="commodities" value="vegetable">
+                        <label for="vegetable">Vegetable:</label>
+                        <br /><br />
+                        <input type="checkbox" name="commodities" value="diary">
+                        <label for="diary">Diary:</label>
+                        <br /><br />
+                        <input type="checkbox" name="commodities" value="fresh fish">
+                        <label for="fish">Fresh fish</label>
+                        <input type="checkbox" name="commodities" value="honey">
+                        <label for="fish">honey</label>
+                        <br /><br />
+                    </fieldset>
+                    <fieldset>
+                        <legend>Business Registration status</legend>
+                        <label for="tel">Registration certificate/License:</label>
+                        <input type="file" name="reg-doc" accept=".pdf, .doc, .docx" required>
+                    </fieldset>
+                    <fieldset>
+                        <input type="submit" name="submit" value="Send">
+                    </fieldset>
+                </form>
+            </section>
+            <section>
+                <aside>
+                    <h2>Quick links</h2>
+                    <a href="#">Facebook</a>
+                    <a href="#">LinkedIn</a>
+                    <a href="#">WhatsApp</a>
+                    <a href="#">Telegram</a>
+                </aside>
+                <article>
+                    <h2>Contact us</h2>
+                    <form action="#" method="post">
+                        <label for="firstname">First name:</label>
+                        <input type="text" name="firstname" required>
+                        <br /><br />
+                        <label for="lastname">Last name:</label>
+                        <input type="text" name="lastname" required>
+                        <br /><br />
+                        <label for="email">Email:</label>
+                        <input type="email" name="email" placeholder="e.g., someone@email.com" required>
+                        <br /><br />
+                        <textarea name="message" cols="30" rows="10" minlength="3" placeholder="Type your message here..." required></textarea>
+                        <br /><br />
+                        <input type="submit" name="submit" value="Send">
+                    </form>
+                </article>
+            </section>
+        </main>
+        <footer>
+            <p>&copy; 2025 Women in Business. All rights reserved!</p>
+        </footer>
+    </body>
+</html>
